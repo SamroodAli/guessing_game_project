@@ -20,6 +20,10 @@ class GuessingGame
     if num == @secret_num
       @game_over = true
       puts "You win"
+    elsif num > @secret_num
+      puts "too big"
+    else
+      puts "too small"
     end
   end
 
