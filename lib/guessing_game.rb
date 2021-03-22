@@ -11,4 +11,8 @@ class GuessingGame
     @num_attempts
   end
 
+  def game_over?
+    @game_over
+  end
+
 end
