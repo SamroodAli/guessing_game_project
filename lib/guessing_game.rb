@@ -7,5 +7,8 @@ class GuessingGame
     @game_over = false
   end
 
+  def num_attempts
+    @num_attempts
+  end
 
 end
